@@ -7,3 +7,9 @@
 
 # Installer les logiciels complémentaires
 - Docker et Docker-compose
+`sudo apt-get update`
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
