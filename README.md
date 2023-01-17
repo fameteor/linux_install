@@ -5,6 +5,9 @@
 
 # Install Ubuntu 22.01.1 complète sans modifier les partitions
 
+# Hosts file modification
+- Add `marais.dev.com` in `etc/hosts` : `127.0.0.1       marais.dev.com`
+
 # Installer les logiciels complémentaires
 - Docker et Docker-compose
 `sudo apt-get update`
