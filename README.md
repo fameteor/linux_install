@@ -23,3 +23,9 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# Install Node and Meteor
+- Install NVM (Node Version Manager) : `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+- Install node V14 : `nvm install 14`
+- Use node V14 : `nvm use 14`
+_ Install Meteor : `npm install -g meteor`
