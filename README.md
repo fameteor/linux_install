@@ -33,4 +33,4 @@ echo \
 - Install NVM (Node Version Manager) : `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
 - Install node V14 : `nvm install 14`
 - Use node V14 : `nvm use 14`
-_ Install Meteor : `npm install -g meteor`
+- Install Meteor : `npm install -g meteor`
