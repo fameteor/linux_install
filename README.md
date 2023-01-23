@@ -36,7 +36,7 @@ echo \
 - Install Meteor : `npm install -g meteor`
 
 # For recording audio :
-- `apt-get update`
+- `sudo apt-get update`
 - `sudo apt-get install flac gnome-media pavucontrol lame`
 ## Packages :
 - `flac` : Free Lossless Audio Codec
