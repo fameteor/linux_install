@@ -29,8 +29,17 @@ echo \
 - `sudo usermod -aG docker $USER`
 - `newgrp docker`
 
-# Install NVM (Node V14) and Meteor
+# Install NVM (Node V14) and Meteor (check for the right Node for last Meteor version)
 - Install NVM (Node Version Manager) : `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
 - Install node V14 : `nvm install 14`
 - Use node V14 : `nvm use 14`
 - Install Meteor : `npm install -g meteor`
+
+# For recording audio :
+- `apt-get update`
+- `sudo apt-get install flac gnome-media pavucontrol lame`
+## Packages :
+- `flac` : Free Lossless Audio Codec
+- `gnome-media` : Media GNOME applications
+- `pavucontrol` : PulseAudio VolUme Control
+- `lame` : high quality MPEG Audio Layer III (MP3) encoder
