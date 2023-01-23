@@ -37,9 +37,9 @@ echo \
 
 # For recording audio :
 - `sudo apt-get update`
-- `sudo apt-get install flac gnome-media pavucontrol lame`
+- `sudo apt-get install flac gnome-sound-recorder pavucontrol lame`
 ## Packages :
 - `flac` : Free Lossless Audio Codec
-- `gnome-media` : Media GNOME applications
+- `gnome-sound-recorder` : Sound recorder
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
