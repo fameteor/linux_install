@@ -43,3 +43,6 @@ echo \
 - `gnome-sound-recorder` : Sound recorder
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
+
+- sudo add-apt-repository ppa:audio-recorder/ppa
+- sudo apt install audio-recorder
