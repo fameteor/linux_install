@@ -37,12 +37,11 @@ echo \
 
 # For recording audio :
 - `sudo apt-get update`
-- `sudo apt-get install flac gnome-sound-recorder pavucontrol lame`
+- `sudo apt-get install flac pavucontrol lame`
+- `sudo add-apt-repository ppa:audio-recorder/ppa`
+- `sudo apt install audio-recorder`
 ## Packages :
 - `flac` : Free Lossless Audio Codec
-- `gnome-sound-recorder` : Sound recorder
+- `audio-recorder` : Sound recorder
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
-
-- sudo add-apt-repository ppa:audio-recorder/ppa
-- sudo apt install audio-recorder
