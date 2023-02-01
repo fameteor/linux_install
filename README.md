@@ -46,5 +46,5 @@ echo \
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
 
-## ATOM éditor installation :
-- sudo snap install atom --classic
+# ATOM éditor installation :
+- `sudo snap install atom --classic
