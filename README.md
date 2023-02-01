@@ -26,7 +26,7 @@ echo \
 
 ## Create docker group and add your user to a docker group (to use docker commands without `sudo`)
 - `sudo groupadd docker`
-- `sudo usermod -aG docker $USER`
+- `sudo usermod -aG docker francois
 - `newgrp docker`
 
 # Install NVM (Node V14) and Meteor (check for the right Node for last Meteor version)
