@@ -49,5 +49,12 @@ echo \
 # ATOM éditor installation :
 - `sudo snap install atom --classic`
 
-# Install ADB
+# Install to upload Nokia 8110
+## Install ADB
 - `sudo apt-get install android-tools-adb`
+## Gdeploy (https://gitlab.com/suborg/gdeploy)
+## Palemoon (or firefox in a fides version)
+- upload palemoon : `palemoon-28.6.1.linux-x86_64.tar.bz2` from : `https://archive.palemoon.org/palemoon/28.x/28.6.1/`
+- extract to /opt/palemoon : `tar xvf palemoon-*.tar.bz2 -C /opt/`
+- create symlink : `sudo ln -s /opt/palemoon/palemoon /usr/bin/palemoon`
+- launch : `palemoon`
