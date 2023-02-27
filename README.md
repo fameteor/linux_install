@@ -48,3 +48,6 @@ echo \
 
 # ATOM éditor installation :
 - `sudo snap install atom --classic
+
+# Install ADB
+- `sudo apt-get install android-tools-adb`
