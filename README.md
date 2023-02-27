@@ -47,7 +47,7 @@ echo \
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
 
 # ATOM éditor installation :
-- `sudo snap install atom --classic
+- `sudo snap install atom --classic`
 
 # Install ADB
 - `sudo apt-get install android-tools-adb`
