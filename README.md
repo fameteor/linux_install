@@ -60,13 +60,8 @@ echo \
 - launch : `palemoon`
 
 # canon MG3550 installation
-## printer 
+## printer and scanner (works with Ubuntu scan utility)
 - upload Canon MG3500 series IJ Printer Driver Ver. 4.00 for Linux (debian Packagearchive) : `cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - in the upload directory : `tar xvzf cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - `cd cnijfilter-mg3500series-4.00-1-deb`
-- `bash install.sh`
-## scanner
-- upload on Canon site : `scangearmp-mg3500series-2.20-1-deb.tar.gz`
-- `tar xvzf scangearmp-mg3500series-2.20-1-deb.tar.gz`
-- `cd scangearmp-mg3500series-2.20-1-deb.tar.gz`
 - `bash install.sh`
