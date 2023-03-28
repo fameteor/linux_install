@@ -59,8 +59,10 @@ echo \
 - create symlink : `sudo ln -s /opt/palemoon/palemoon /usr/bin/palemoon`
 - launch : `palemoon`
 
-# printer canon MG3550 installation
+# canon MG3550 installation
+## printer 
 - upload Canon MG3500 series IJ Printer Driver Ver. 4.00 for Linux (debian Packagearchive) : `cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - in the upload directory : `tar xvzf cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - `cd cnijfilter-mg3500series-4.00-1-deb`
 - `bash install.sh`
+## scanner
