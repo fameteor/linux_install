@@ -66,3 +66,7 @@ echo \
 - `cd cnijfilter-mg3500series-4.00-1-deb`
 - `bash install.sh`
 ## scanner
+- upload on Canon site : `scangearmp-mg3500series-2.20-1-deb.tar.gz`
+- `tar xvzf scangearmp-mg3500series-2.20-1-deb.tar.gz`
+- `cd scangearmp-mg3500series-2.20-1-deb.tar.gz`
+- `bash install.sh`
