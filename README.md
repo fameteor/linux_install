@@ -65,3 +65,7 @@ echo \
 - in the upload directory : `tar xvzf cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - `cd cnijfilter-mg3500series-4.00-1-deb`
 - `bash install.sh`
+
+# VLC installation
+- `sudo snap install vlc`
+
