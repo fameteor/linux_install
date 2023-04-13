@@ -69,3 +69,6 @@ echo \
 # VLC installation
 - `sudo snap install vlc`
 
+# Kdenlive installation (video editor)
+- `sudo apt update`
+- `sudo apt install kdenlive`
