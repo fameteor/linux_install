@@ -66,6 +66,13 @@ echo \
 - `cd cnijfilter-mg3500series-4.00-1-deb`
 - `bash install.sh`
 
+# canon MG2250 installation
+## printer and scanner (works with Ubuntu scan utility)
+- upload Canon MG2200 series IJ Printer Driver Ver. 3.80 for Linux (debian Packagearchive) : `cnijfilter-mg2200series-3.80-1-deb.tar.gz`
+- in the upload directory : `tar xvzf cnijfilter-mg2200series-3.80-1-deb.tar.gz`
+- `cd cnijfilter-mg2200series-3.80-1-deb`
+- `bash install.sh`
+
 # VLC installation
 - `sudo snap install vlc`
 
