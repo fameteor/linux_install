@@ -79,3 +79,11 @@ echo \
 # Kdenlive installation (video editor)
 - `sudo apt update`
 - `sudo apt install kdenlive`
+
+# GIMP installation
+- `sudo snap install gimp`
+
+# Inkscape installation
+- `sudo apt install inkscape`
+
+#
