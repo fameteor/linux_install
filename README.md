@@ -10,7 +10,7 @@
 
 # Installer les logiciels complémentaires
 - Docker et Docker-compose
-`sudo apt-get update`
+``sudo apt-get update
 sudo apt-get install \
     ca-certificates \
     curl \
@@ -21,12 +21,12 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-`sudo apt-get update`
-`sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin`
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin``
 
 ## Create docker group and add your user to a docker group (to use docker commands without `sudo`)
 - `sudo groupadd docker`
-- `sudo usermod -aG docker francois
+- `sudo usermod -aG docker francois`
 - `newgrp docker`
 
 # Install NVM (Node V14) and Meteor (check for the right Node for last Meteor version)
