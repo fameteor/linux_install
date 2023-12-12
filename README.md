@@ -80,10 +80,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `sudo apt update`
 - `sudo apt install kdenlive`
 
-# GIMP installation
-- `sudo snap install gimp`
-
-# Inkscape installation
-- `sudo apt install inkscape`
-
 #
