@@ -73,8 +73,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `cd cnijfilter-mg2200series-3.80-1-deb`
 - `bash install.sh`
 
-# VLC installation
-- `sudo snap install vlc`
+# Ubuntu software installation
+- installer `vlc`, `gimp` et `ìnkscape`
 
 # Kdenlive installation (video editor)
 - `sudo apt update`
