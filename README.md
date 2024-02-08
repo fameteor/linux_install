@@ -55,7 +55,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ## Gdeploy (https://gitlab.com/suborg/gdeploy)
 ## Palemoon (or firefox in a fixed version)
 - upload palemoon : `palemoon-28.6.1.linux-x86_64.tar.bz2` from : `https://archive.palemoon.org/palemoon/28.x/28.6.1/`
-- extract to /opt/palemoon : `tar xvf palemoon-*.tar.bz2 -C /opt/`
+- extract to /opt/palemoon : `sudo tar xvf palemoon-*.tar.bz2 -C /opt/`
 - create symlink : `sudo ln -s /opt/palemoon/palemoon /usr/bin/palemoon`
 - launch : `palemoon`
 
