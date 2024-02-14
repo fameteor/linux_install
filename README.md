@@ -76,6 +76,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # Ubuntu software installation
 - installer `vlc`, `gimp` et `ìnkscape`
 
+# Wireshark installation
+- `sudo add-apt-repository ppa:wireshark-dev/stable`
+- `sudo apt-get update`
+- `sudo apt-get install wireshark`
+- `sudo wireshark`
+
 # Kdenlive installation (video editor)
 - `sudo apt update`
 - `sudo apt install kdenlive`
