@@ -48,6 +48,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 # ATOM éditor installation :
 - `sudo snap install atom --classic`
+To install Atom packages, go to `Edit/Preferences/Install`
 
 # Install to upload Nokia 8110
 ## Install ADB
