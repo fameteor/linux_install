@@ -95,4 +95,5 @@ To install Atom packages, go to `Edit/Preferences/Install`
 
 # Route converter (GPX éditor and maps)
 - download : `https://www.routeconverter.com/downloads/`
+- run : `java -jar RouteConverterLinux.jar`
 
