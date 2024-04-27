@@ -87,4 +87,9 @@ To install Atom packages, go to `Edit/Preferences/Install`
 - `sudo apt update`
 - `sudo apt install kdenlive`
 
-#
+# Java versions management
+- install JAVA 17 : `sudo apt install openjdk-17-jdk openjdk-17-jre`
+- To get the list of installed versions : `update-java-alternatives --list`
+- To know which version is running : `java --version`
+- To switch to a specific version : `sudo update-java-alternatives --set java-1.17.0-openjdk-amd64`
+
