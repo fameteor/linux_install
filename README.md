@@ -46,10 +46,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
 
-# ATOM éditor installation :
-- `sudo snap install atom --classic`
-To install Atom packages, go to `Edit/Preferences/Install`
-
 # Install to upload Nokia 8110
 ## Install ADB
 - `sudo apt-get install android-tools-adb`
@@ -97,3 +93,8 @@ To install Atom packages, go to `Edit/Preferences/Install`
 - download : `https://www.routeconverter.com/downloads/`
 - run : `java -jar RouteConverterLinux.jar`
 
+# Passage en Ubuntu 24.04
+
+# Réinstall ATOM
+- Télécharger `atom-amd64.deb` sur le github éditeur : `https://github.com/atom/atom/releases`
+- `sudo dpkg -i atom-amd64.deb`
