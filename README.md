@@ -35,6 +35,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - Use node V14 : `nvm use 14`
 - Install Meteor : `npm install -g meteor`
 
+# Meteor 3
+- desinstall node : `npm uninstall -g meteor`
+- delete `~/.meteor`
+- reinstall meteor : `curl https://install.meteor.com/ | sh`
+
 # For recording audio :
 - `sudo apt-get update`
 - `sudo apt-get install flac pavucontrol lame`
