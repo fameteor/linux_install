@@ -36,7 +36,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - Install Meteor : `npm install -g meteor`
 
 # Meteor 3
-- desinstall node : `npm uninstall -g meteor`
+- desinstall previous meteor : `npm uninstall -g meteor`
 - delete `~/.meteor`
 - reinstall meteor : `curl https://install.meteor.com/ | sh`
 
