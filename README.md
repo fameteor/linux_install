@@ -34,8 +34,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `sudo usermod -aG docker francois`
 - `newgrp docker`
 
-# Install NVM (Node V14) and Meteor (check for the right Node for last Meteor version)
-- Install NVM (Node Version Manager) : `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+# (Ubuntu 24) Install NVM (Node V14) and Meteor (check for the right Node for last Meteor version)
+- Install NVM (Node Version Manager) : `sudo apt update`, `sudo apt install npm`
 - Install node V14 : `nvm install 14`
 - Use node V14 : `nvm use 14`
 - Install Meteor : `npm install -g meteor`
