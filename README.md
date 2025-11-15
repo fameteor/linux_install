@@ -3,6 +3,11 @@
 - download `rufus 3.21`
 - download `ubuntu desktop 22.04.1`
 
+# Install Ubuntu 24.04.02 sans effacer les données de la partition home
+- booter sur la clé USB (sur DELL 7480, appuyer plein de fois sur F12 au démarrage jusqu'à avoir le menu "one shot boot"
+- suivre l'assistant d'install jusqu'à "rechercher une version plus récence de l'utilitaire d'install", faire ok, l'arrêter et le relancer
+- choisir "installation complète" et choisir manuellement les partitions pour réinstaller et formater que la partition système /. Monter le /home sur la bonne partition
+
 # Install Ubuntu 22.01.1 complète sans modifier les partitions
 
 # Hosts file modification
