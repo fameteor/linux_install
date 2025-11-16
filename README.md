@@ -56,32 +56,35 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `pavucontrol` : PulseAudio VolUme Control
 - `lame` : high quality MPEG Audio Layer III (MP3) encoder
 
-# Install to upload Nokia 8110
+# (Ubuntu V24) Install to upload Nokia 8110
 ## Install ADB
 - `sudo apt-get install android-tools-adb`
 ## Gdeploy (https://gitlab.com/suborg/gdeploy)
 ## Palemoon (or firefox in a fixed version)
-- upload palemoon : `palemoon-28.6.1.linux-x86_64.tar.bz2` from : `https://archive.palemoon.org/palemoon/28.x/28.6.1/`
+- use from disk or upload palemoon : `palemoon-28.6.1.linux-x86_64.tar.bz2` from : `https://archive.palemoon.org/palemoon/28.x/28.6.1/`
 - extract to /opt/palemoon : `sudo tar xvf palemoon-*.tar.bz2 -C /opt/`
 - create symlink : `sudo ln -s /opt/palemoon/palemoon /usr/bin/palemoon`
 - launch : `palemoon`
 
-# canon MG3550 installation
+# (Ubuntu V24) canon MG3550 installation
 ## printer and scanner (works with Ubuntu scan utility)
-- upload Canon MG3500 series IJ Printer Driver Ver. 4.00 for Linux (debian Packagearchive) : `cnijfilter-mg3500series-4.00-1-deb.tar.gz`
+- use from disk or upload Canon MG3500 series IJ Printer Driver Ver. 4.00 for Linux (debian Packagearchive) : `cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - in the upload directory : `tar xvzf cnijfilter-mg3500series-4.00-1-deb.tar.gz`
 - `cd cnijfilter-mg3500series-4.00-1-deb`
 - `bash install.sh`
 
-# canon MG2250 installation
+# (BUG Ubuntu V24 !!!) canon MG2250 installation
 ## printer and scanner (works with Ubuntu scan utility)
-- upload Canon MG2200 series IJ Printer Driver Ver. 3.80 for Linux (debian Packagearchive) : `cnijfilter-mg2200series-3.80-1-deb.tar.gz`
+- use from disk or upload Canon MG2200 series IJ Printer Driver Ver. 3.80 for Linux (debian Packagearchive) : `cnijfilter-mg2200series-3.80-1-deb.tar.gz`
 - in the upload directory : `tar xvzf cnijfilter-mg2200series-3.80-1-deb.tar.gz`
 - `cd cnijfilter-mg2200series-3.80-1-deb`
 - `bash install.sh`
 
-# Ubuntu software installation
+# (Ubuntu V24) other software installation
 - installer `vlc`, `gimp` et `ìnkscape`
+- `sudo snap install vlc`
+- `sudo snap install gimp`
+- `sudo snap install inkscape`
 
 # Wireshark installation
 - `sudo add-apt-repository ppa:wireshark-dev/stable`
@@ -89,7 +92,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - `sudo apt-get install wireshark`
 - `sudo wireshark`
 
-# Kdenlive installation (video editor)
+# (Ubuntu V24) Kdenlive installation (video editor)
 - `sudo apt update`
 - `sudo apt install kdenlive`
 
@@ -106,5 +109,5 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # Passage en Ubuntu 24.04
 
 # Réinstall ATOM
-- Télécharger `atom-amd64.deb` sur le github éditeur : `https://github.com/atom/atom/releases`
+- Utiliser du disque ou télécharger `atom-amd64.deb` sur le github éditeur : `https://github.com/atom/atom/releases`
 - `sudo dpkg -i atom-amd64.deb`
