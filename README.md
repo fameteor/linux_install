@@ -106,7 +106,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - download : `https://www.routeconverter.com/downloads/`
 - run : `java -jar RouteConverterLinux.jar`
 
-# Passage en Ubuntu 24.04
+# (Ubuntu V24) install (or delete) PROTON VPN (`https://protonvpn.com/support/official-linux-vpn-ubuntu/`)
+- To check if VPN is in service : `nmcli connection show --active`
 
 # Réinstall ATOM
 - Utiliser du disque ou télécharger `atom-amd64.deb` sur le github éditeur : `https://github.com/atom/atom/releases`
