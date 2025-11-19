@@ -45,11 +45,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 - delete `~/.meteor`
 - reinstall meteor : `curl https://install.meteor.com/ | sh`
 
-# For recording audio :
+# For recording audio  (Ubuntu 22 only) :
 - `sudo apt-get update`
 - `sudo apt-get install flac pavucontrol lame`
 - `sudo add-apt-repository ppa:audio-recorder/ppa`
 - `sudo apt install audio-recorder`
+
+# (Ubuntu V24) For audio recording :
+- `sudo add-apt-repository ppa:ubuntuhandbook1/audio-recorder`
+- `sudo apt update`
+- `sudo apt install audio-recorder`
+  To desinstall : `sudo apt remove --autoremove audio-recorder`
+  To remove repository : `sudo add-apt-repository --remove ppa:ubuntuhandbook1/audio-recorder`
+  
 ## Packages :
 - `flac` : Free Lossless Audio Codec
 - `audio-recorder` : Sound recorder
