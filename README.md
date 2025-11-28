@@ -120,3 +120,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # Réinstall ATOM
 - Utiliser du disque ou télécharger `atom-amd64.deb` sur le github éditeur : `https://github.com/atom/atom/releases`
 - `sudo dpkg -i atom-amd64.deb`
+
+# (Ubuntu V24) install easytag (éditeur de métadonnées des fichiers audio)
+- `sudo apt update`
+- `sudo apt install easytag`
