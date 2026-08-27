@@ -15,16 +15,16 @@
 
 # Installer les logiciels complémentaires
 - Legacy Docker et Docker-compose (for MeteorGen compatibility)
-Dowload docker-20.10.24.tgz from :  `https://download.docker.com/linux/static/stable/x86_64/`
-Extrack docker : `sudo cp docker/* /usr/bin/`
-Lauch daemon : `sudo dockerd`
-Check if works OK : `sudo docker run hello-world`
+  - Dowload docker-20.10.24.tgz from :  `https://download.docker.com/linux/static/stable/x86_64/`
+  - Extrack docker : `sudo cp docker/* /usr/bin/`
+  - Lauch daemon : `sudo dockerd`
+  - Check if works OK : `sudo docker run hello-world`
 
 
-Install docker compose 2.16.0 : `sudo curl -L "https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose`
-`sudo chmod +x /usr/local/bin/docker-compose`
+  - Install docker compose 2.16.0 : `sudo curl -L "https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose`
+    `sudo chmod +x /usr/local/bin/docker-compose`
 
-puis dans server-settings/batches : `sudo docker-compose up`
+  - puis dans server-settings/batches : `sudo docker-compose up`
 
 ## Create docker group and add your user to a docker group (to use docker commands without `sudo`)
 - `sudo groupadd docker`
